@@ -1,0 +1,18 @@
+{
+  "name": "internal_doctor_automation",
+  "version": "1.0.0",
+  "description": "Internal doctor automation",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "protractor": "^5.4.3",
+    "protractor-beautiful-reporter": "^1.3.6",
+    "webdriver-manager": "^12.1.7"
+  },
+  "scripts": {
+    "install": "webdriver-manager update",
+    "test": "protractor conf/conf.js"
+  },
+  "author": "Naved Ali",
+  "license": "ISC"
+}
